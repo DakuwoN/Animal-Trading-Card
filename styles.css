@@ -1,0 +1,78 @@
+/* add your CSS here */
+body {
+    background-color: turquoise;
+    font-family: 'Syne Mono', monospace;
+   
+}
+
+
+    /* border: 2px red solid; */
+    h3::before {
+        content: "«";
+        color: blue;
+      }
+      
+      h3::after {
+        content: "»";
+        color: red;
+      }
+
+
+.large-container {
+    border: 2px  grey solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    box-shadow: 5px 5px lightgrey;
+    text-align: center;
+    margin: 1em;
+    padding: 1em;
+   border-radius: 50px;
+    
+    box-shadow: 3px 3px black, -1em 0 .4em black;
+         
+}
+
+.container {
+    width: 300px;
+    text-align: left;
+    padding: 3px;
+    margin-top: 1em;
+    border-radius: 30px;
+    border-right: 1px red solid;
+    border-left: 1px blue solid;
+    border-top: 1px blue solid;
+    border-bottom: 1px red solid;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.lion-photo {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px red solid; */
+    border-radius: 50px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    border-radius: 50px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* border: 2px yellow solid; */
+}
+
+
+
+
