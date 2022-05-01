@@ -4,4 +4,4 @@ This is a common workflow for front-end web developers. Typically, you'll be pro
 
 The design prototype used in this project (which you can see in the image below) is inspired by trading cards and features a fish you might recognize from a popular animated film. You’ll be creating a card like this and swapping out the fish with an animal of your choice.
 
-![My Animal Trading Card] (./completed_project.png)
+![My Animal Trading Card](./completed_project.png)
