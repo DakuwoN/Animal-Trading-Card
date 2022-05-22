@@ -2,24 +2,25 @@
 body {
     background-color: turquoise;
     font-family: 'Syne Mono', monospace;
-   
+
 }
 
 
-    /* border: 2px red solid; */
-    h3::before {
-        content: "«";
-        color: blue;
-      }
-      
-      h3::after {
-        content: "»";
-        color: red;
-      }
+/* border: 2px red solid; */
+h3::before {
+    content: "«";
+    color: blue;
+}
+
+
+h3::after {
+    content: "»";
+    color: red;
+}
 
 
 .large-container {
-    border: 2px  grey solid;
+    border: 2px grey solid;
     display: flex;
     flex-wrap: wrap;
     width: 300px;
@@ -27,11 +28,10 @@ body {
     text-align: center;
     margin: 1em;
     padding: 1em;
-   border-radius: 50px;
-    
+    border-radius: 50px;
     box-shadow: 3px 3px black, -1em 0 .4em black;
-         
 }
+
 
 .container {
     width: 300px;
@@ -49,9 +49,11 @@ body {
     font-style: italic;
 }
 
+
 .bold-text {
     font-weight: bold;
 }
+
 
 .lion-photo {
     display: flex;
@@ -60,11 +62,14 @@ body {
     border-radius: 50px;
 }
 
+
 img {
     width: 300px;
     height: 200px;
     border-radius: 50px;
 }
+
+
 
 ul {
     list-style: none;
@@ -72,7 +77,3 @@ ul {
     padding: 0;
     /* border: 2px yellow solid; */
 }
-
-
-
-
